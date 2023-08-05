@@ -12,8 +12,8 @@ from azure.mgmt.resource import ResourceManagementClient
 # your azure access details here, do not push the build with keys.
 credential = DefaultAzureCredential()
 
-subscription_id = "your subscription "
-resource_group = "your subscription resource group"
+subscription_id = "b1fc9f31-4728-4a90-ae56-9f774c277e83"
+resource_group = "zeevg-rg"
 resource_uri = f"/subscriptions/{subscription_id}/resourceGroups/{resource_group}"
 
 # Set up Azure Cost Management client
